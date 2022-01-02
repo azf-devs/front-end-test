@@ -1,0 +1,15 @@
+{
+  "/fluxpalindrome.json": {
+    "target":  {
+      "host": "www.linktogo.fr",
+      "protocol": "https:",
+      "port": 443
+    },
+    "pathRewrite": {
+      "/fluxpalindrome.json$": "/assets/json/fluxpalindrome.json"
+    },
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "info"
+  }
+}

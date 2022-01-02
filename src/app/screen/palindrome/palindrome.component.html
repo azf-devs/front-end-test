@@ -1,0 +1,18 @@
+<mat-card>
+  <mat-card-title>Palindrome Check</mat-card-title>
+  <mat-card-content>
+    <dl>
+      <dt>Mot</dt>
+      <dd>{{word}}</dd>
+      <dt>Lien absolu</dt>
+      <dd>{{url}}</dd>
+      <dt>Palindrome</dt>
+      <dd>
+        <span class="result">
+          <i class="check" *ngIf="palindrome">&check;</i>
+          <i class="cross" *ngIf="!palindrome">&#10060;</i>
+        </span>
+      </dd>
+    </dl>
+  </mat-card-content>
+</mat-card>

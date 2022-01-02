@@ -1,0 +1,11 @@
+table {
+  width: 100%;
+}
+
+tr.line {
+  background-color: red;
+}
+
+tr.line.palindrome {
+  background-color: green;
+}
