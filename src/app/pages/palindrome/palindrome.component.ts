@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {PalindromeService} from './service/palindrome.service';
 import {Observable, of} from 'rxjs';
 import {ItemModel} from './model/item.model';
-import {checkIsPalindrome} from '../../core/utils';
+import {checkIsPalindrome} from '../../core/utils/utils';
 
 @Component({
   selector: 'app-palindrome',

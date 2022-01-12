@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, ParamMap} from '@angular/router';
 import {TEXT_PARAM} from '../../core/constants';
-import {checkIsPalindrome} from '../../core/utils';
+import {checkIsPalindrome} from '../../core/utils/utils';
 
 @Component({
   selector: 'app-start',
