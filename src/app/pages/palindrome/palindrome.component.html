@@ -1,0 +1,15 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">ID</th>
+    <th scope="col">LABEL</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let item of items$ | async"
+      class="{{isPalindrome(item.label) ? 'table-success' : 'table-danger'}}">
+    <th scope="row">{{item.id}}</th>
+    <td>{{item.label}}</td>
+  </tr>
+  </tbody>
+</table>

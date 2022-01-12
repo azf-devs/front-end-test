@@ -1,6 +1,7 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 import {TEXT_PARAM} from './core/constants';
+import {PalindromeComponent} from './pages/palindrome/palindrome.component';
 
 const routes: Routes = [
 
@@ -10,7 +11,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '',
+    component: PalindromeComponent,
     pathMatch: 'full'
   }
 ];
@@ -19,4 +20,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
