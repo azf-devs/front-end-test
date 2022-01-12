@@ -1,27 +1,27 @@
-# TEST ANGULAR 
+# MyApp
 
-Le test a pour but de tester la les éléments de base d'Angular.  
-Le test peut etre envoyé par mail (sans les node_modules), ou en faisant une PR sur ce repo.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Etape 1
-Créer une application angular standard avec @angular/cli
+## Development server
 
-## Etape 2
-Installer une dependance graphue de votre choix Bootstrap/Material/Bulma
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Etape 3 : Definir si le mot est un palindrome
-Creer un composant qui va parser le contenu de la route, definir et afficher OK si le mot est un palindrome, sinon afficher KO
+## Code scaffolding
 
-exemple de routes : 
-  localhost:4200/start/palindome -> KO  
-  localhost:4200/start/stats -> OK  
-  localhost:4200/start/12345654321 -> OK  
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Etape 4 : Recupération d'un flux http
-Créer un composant qui va afficher une liste de palindone herbergé ici :  assets/flux.json ou https://www.linktogo.fr/assets/json/fluxpalindrome.json (CORS domain)  
-Afficher les lignes de palindrome valide en vert et invalide en rouge
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Etape 5 : Tester c'est douter
-La commande "npm test" doit etre passante et tester votre code  
-Le fichier .gitlab-ci.yml vous permet de lancer les tests automatiquement
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

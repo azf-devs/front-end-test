@@ -1,0 +1,4 @@
+<h1 *ngFor="let word of words" style="text-align: center; margin-top: 4%;"
+[ngStyle]="{'color': word.isPalindrome ? 'green' :'red' }">
+{{word.label}} <button class="btn btn-outline-dark" [routerLink]="['/start/',word.label]">ok or ko</button>
+</h1>
