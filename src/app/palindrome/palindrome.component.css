@@ -1,0 +1,13 @@
+.card {
+  position: fixed; /* or absolute */
+  top: 30%;
+  left: 45%;
+}
+
+.red-background {
+  background-color: rgba(255, 13, 0, 0.697);
+}
+
+.green-background {
+  background-color: rgba(0, 255, 47, 0.724);
+}

@@ -1,0 +1,9 @@
+<mat-card class="card">
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let item of items" id="{{item.id}}" [ngClass]="item.isPlandrome?'green-background':'red-background'">
+        <div mat-line >{{item.id}} -- {{item.label}} </div>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>

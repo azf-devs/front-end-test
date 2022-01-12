@@ -1,0 +1,6 @@
+.card {
+  max-width: 40px;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+}
