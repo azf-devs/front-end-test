@@ -1,0 +1,27 @@
+.ripple-container {
+    cursor: pointer;
+    margin: auto;
+    width: 60%;
+    top: 50%;
+    transform: translate(0, -80%);
+    border: 5px solid #070707;
+    padding: 10px;
+    text-align: center;
+  
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+
+    .result-message{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+    }
+  }
