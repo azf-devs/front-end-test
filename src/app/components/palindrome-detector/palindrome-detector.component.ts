@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, UrlSegment } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
-import { PalindromeService } from 'src/app/services/palindrome.service';
+import { PalindromeService } from 'src/app/services/palindrome-service/palindrome.service';
 
 @Component({
   selector: 'app-palindrome-detector',

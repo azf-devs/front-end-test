@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
 import { Resource } from 'src/app/entities/resource';
-import { PalindromeService } from 'src/app/services/palindrome.service';
+import { PalindromeService } from 'src/app/services/palindrome-service/palindrome.service';
 import { ResourceService } from 'src/app/services/resource-service/resource.service';
 
 @Component({
