@@ -1,0 +1,7 @@
+
+
+<li
+  *ngFor="let obj of listOfLabels"
+  [ngClass]="obj.isPalindrome ? 'green': 'red'">
+  {{obj.label}}
+</li>
