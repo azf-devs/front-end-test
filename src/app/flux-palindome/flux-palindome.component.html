@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let item of datas">
+        <div [ngStyle]="{'background-color':isPalindrome(item.label) ? 'green' : 'red' }"> {{ item.label }} :
+            {{isPalindrome(item.label)}} </div>
+    </li>
+</ul>
