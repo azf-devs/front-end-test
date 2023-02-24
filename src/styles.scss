@@ -1,0 +1,27 @@
+@import "_variables.scss";
+
+.icon-warning {
+  color: $orange;
+}
+
+.icon-error {
+  color: $red;
+}
+
+.icon-success {
+  color: $green;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.shadow-box {
+  box-shadow: 2px 2px 20px $grey;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
