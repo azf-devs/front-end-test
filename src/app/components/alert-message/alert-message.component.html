@@ -1,0 +1,12 @@
+<div class="alert-box flex-container shadow-box" *ngIf="message && message.status">
+  <div class="alert-icon">
+    <mat-icon class="icon-{{ message.status }}">
+      {{ message.status === "success" ? "check_circle" : message.status }}
+    </mat-icon>
+  </div>
+  <div>
+    <p>
+      {{ message.description }}
+    </p>
+  </div>
+</div>
